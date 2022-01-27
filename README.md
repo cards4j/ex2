@@ -1,4 +1,7 @@
 # ex2: product of integer primitive and reference types compiles and runs 
+
+What is the result of compiling and running this code using Java 17?
+
     01 public class Ex1  {
     02    public static void main(String[] args) {
     03        Integer a = Integer.valueOf(7);
@@ -7,7 +10,10 @@
     06    }
     07 }
 ---
+Result:
+
     35
 ---
+
 Integer reference type variable `a` multiplied by primitive integer literal `5` 
 is stored in primitive integer variable `c` and sent to the console as  the product, 35.
